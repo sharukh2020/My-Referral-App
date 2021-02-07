@@ -1,0 +1,40 @@
+.LanguageSelection{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.LanguageSelectionBtnHidden{
+    display: none;
+}
+.LanguageSelectionBtnVisible{
+    border: 0;
+    outline: none;
+    background-color: rgb(54, 54, 160);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.LanguageSelectionBtnVisible i{
+    margin-left: 10px;
+}
+.ListButtonscontainerVisible{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    background-color: white;
+    box-shadow: 1px 1px 5px darkgrey;
+}
+.ListButtonscontainerHidden{
+    display: none;
+}
+.ListButtons{
+    border: 0;
+    outline: none;
+    box-shadow: 1px 1px 5px darkgrey;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
